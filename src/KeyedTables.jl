@@ -1,6 +1,6 @@
 module KeyedTables
 
-using StructArrays: StructArray
+using StructArrays: StructArray, fieldarrays
 
 include("permutedvector.jl")
 include("keyedtable.jl")
