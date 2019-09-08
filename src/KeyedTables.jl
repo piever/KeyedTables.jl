@@ -1,5 +1,8 @@
 module KeyedTables
 
-greet() = print("Hello World!")
+using StructArrays: StructArray
+
+include("permutedvector.jl")
+include("keyedtable.jl")
 
 end # module
